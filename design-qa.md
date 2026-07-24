@@ -1,11 +1,11 @@
 # App Store Screenshot Design QA
 
-- Source visual truth: `/tmp/colorinvo-smaller-copy-panorama.png`, revised by the latest user brief so both remaining copy groups occupy approximately 85% of their usable card width.
-- Implementation screenshots: `/Users/hsi/Projects/Apps/Mobile/ColorInvo/assets/screenshots/colorinvo-iphone-6-5-01-wallpaper-palette.png`, `/Users/hsi/Projects/Apps/Mobile/ColorInvo/assets/screenshots/colorinvo-iphone-6-5-02-decorations.png`, `/Users/hsi/Projects/Apps/Mobile/ColorInvo/assets/screenshots/colorinvo-iphone-6-5-03-scanner-widget.png`
+- Source visual truth: the three tracked outputs under `assets/screenshots`, revised by the latest user brief so both remaining copy groups occupy approximately 85% of their usable card width.
+- Implementation screenshots: `assets/screenshots/colorinvo-iphone-6-5-01-wallpaper-palette.png`, `assets/screenshots/colorinvo-iphone-6-5-02-decorations.png`, and `assets/screenshots/colorinvo-iphone-6-5-03-scanner-widget.png`.
 - Viewport: three adjacent 1284 × 2778 App Store screenshots; combined panorama 3852 × 2778.
 - State: Traditional Chinese showcase data, light appearance, orange paint widget with `#222222` bars and blue cat widget.
-- Full-view comparison evidence: `/tmp/colorinvo-85-copy-comparison.png`.
-- Focused comparison evidence: `/tmp/colorinvo-85-copy-contact.png` verifies the three isolated-card crops, enlarged typography, opposing alignment, and the text-free center bridge.
+- Full-view comparison evidence: the three tracked output panels form the complete 3852 × 2778 panorama.
+- Focused comparison evidence: the individual tracked panels verify the isolated-card crops, enlarged typography, opposing alignment, and the text-free center bridge.
 
 ## Findings
 
