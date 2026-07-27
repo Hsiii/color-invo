@@ -1,5 +1,4 @@
 import type { JSX } from 'react';
-import { ImageIcon, ScanBarcode, WandSparkles } from 'lucide-react';
 import Image from 'next/image';
 
 import { getCopy } from './i18n';
@@ -15,20 +14,7 @@ interface HomePageContentProps {
 export function HomePageContent({ locale }: HomePageContentProps): JSX.Element {
     const copy = getCopy(locale);
     const page = copy.pages.home;
-    const stepPresentation = [
-        {
-            icon: ImageIcon,
-            placement: 'bottomRight',
-        },
-        {
-            icon: WandSparkles,
-            placement: 'topRight',
-        },
-        {
-            icon: ScanBarcode,
-            placement: 'middleLeft',
-        },
-    ] as const;
+    const stepPresentation = ['bottomRight', 'topRight', 'middleLeft'] as const;
 
     return (
         <SiteShell currentPage='home' locale={locale}>
@@ -73,18 +59,14 @@ export function HomePageContent({ locale }: HomePageContentProps): JSX.Element {
                 </div>
                 <div className='homeFlow__analysis'>
                     {page.steps.map((step, index) => {
-                        const presentation = stepPresentation[index];
-                        const Icon = presentation.icon;
+                        const placement = stepPresentation[index];
 
                         return (
                             <article
                                 className='homeFlow__step'
-                                data-placement={presentation.placement}
+                                data-placement={placement}
                                 key={step.title}
                             >
-                                <span className='homeFlow__icon'>
-                                    <Icon aria-hidden='true' size={24} />
-                                </span>
                                 <div className='homeFlow__content'>
                                     <h3>{step.title}</h3>
                                     <p>{step.body}</p>

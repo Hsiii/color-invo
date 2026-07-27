@@ -159,6 +159,11 @@ steps collapse into the intended reading order below the editor image.
     character-level opportunities. Traditional Chinese copy also uses the
     browser's phrase-aware line-breaking mode, preventing breaks inside natural
     phrases throughout the site.
+15. The hero is now a centered vertical product story, with the widget selector
+    preceding the uncropped widget. The three-step heading uses the smaller
+    heading scale, its callout cards are icon-free and shadow-free, and their
+    copy is shorter in both locales. The footer now mirrors OnTrack's copyright
+    treatment with `© 2026 ColorInvo`.
 
 ## Open Questions
 
