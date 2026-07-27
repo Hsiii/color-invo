@@ -9,14 +9,18 @@ export const COPY = {
         demoAlt:
             'ColorInvo app screen showing carrier setup and widget preview',
         demoLabel: 'ColorInvo app screen demo',
-        detailsLabel: 'Feature summary',
         htmlLang: 'en',
         lastUpdated: 'July 3, 2026',
         metadata: {
             home: {
                 description:
-                    'Taiwan mobile invoice carrier widgets for iPhone, with wallpaper-matched colors and on-device setup.',
-                title: 'ColorInvo - Taiwan carrier widgets',
+                    'Match your Taiwan mobile invoice carrier widget to your wallpaper, add a cat or another decoration, and keep it ready on your iPhone Home Screen.',
+                title: 'ColorInvo - Make your carrier part of your Home Screen',
+            },
+            legal: {
+                description:
+                    'ColorInvo legal notices and guidelines for using the ColorInvo name, app icon, and logo.',
+                title: 'Legal Notice',
             },
             privacy: {
                 description:
@@ -32,21 +36,69 @@ export const COPY = {
         ogLocale: 'en_US',
         pages: {
             home: {
-                details: [
+                appStoreBadge: {
+                    alt: 'Download ColorInvo on the App Store',
+                    src: '/app-store-badge-en.svg',
+                },
+                flowTitle: 'Three steps to make your carrier belong.',
+                lede: 'Extract colors from your wallpaper, add the decoration you like, and keep your carrier ready at hand as the perfect Home Screen accessory.',
+                showcase: {
+                    label: 'Choose a ColorInvo widget style',
+                    options: [
+                        {
+                            alt: 'Cat decoration playfully woven into a blue carrier barcode widget',
+                            label: 'Cat',
+                            src: '/colorinvo-widget-cat.png',
+                        },
+                        {
+                            alt: 'Paint decoration flowing across a blue carrier barcode widget',
+                            label: 'Paint',
+                            src: '/colorinvo-widget-wave.png',
+                        },
+                        {
+                            alt: 'Minimal blue carrier barcode widget',
+                            label: 'Minimal',
+                            src: '/colorinvo-widget-plain.png',
+                        },
+                    ],
+                },
+                steps: [
                     {
-                        body: 'Save your carrier once. The app validates the format and creates a Code 39 barcode for checkout scanning.',
-                        title: 'Carrier barcode',
+                        body: 'Pull colors from a wallpaper you love to create a coordinated barcode that stays easy to scan.',
+                        title: 'Match your wallpaper',
                     },
                     {
-                        body: 'Add the widget to your iPhone Home Screen so the barcode is ready without opening the invoice app.',
-                        title: 'Home Screen widget',
+                        body: 'Pick Cat, Paint, or Minimal to suit the way you style your Home Screen.',
+                        title: 'Choose a decoration',
                     },
                     {
-                        body: 'Wallpaper color generation and widget settings stay on your device. No account, ads, or backend service.',
-                        title: 'On-device setup',
+                        body: 'Show your carrier at checkout without choosing between convenience and a setup you like.',
+                        title: 'Add it to Home Screen',
                     },
                 ],
-                lede: 'Put your Taiwan mobile invoice carrier on the iPhone Home Screen, with colors that match your wallpaper and settings that stay on device.',
+                title: 'Pick the perfect colors for your carrier—or add a cat.',
+                trust: 'Colors and widget settings are created on your device. No account, ads, or backend service.',
+            },
+            legal: {
+                contactBody:
+                    'For permission to use ColorInvo brand assets beyond these guidelines, contact',
+                contactTitle: 'Permission requests',
+                sections: [
+                    {
+                        body: [
+                            'ColorInvo, 條色盤, the ColorInvo app icon, and related logos are identifying assets of Hsi Chen. Do not use them in a way that suggests an official partnership, endorsement, or affiliation without prior written permission.',
+                            'Editorial coverage, reviews, and commentary may use the ColorInvo name and an unmodified app icon in reasonable context. Do not redraw, recolor, add effects to, or use these assets as the identity of another product, service, website, or social account.',
+                        ],
+                        title: 'Name, icon, and logo',
+                    },
+                    {
+                        body: [
+                            'Apple, App Store, iPhone, and iOS are trademarks of Apple Inc., registered in the U.S. and other countries and regions. The App Store badge is used in accordance with Apple marketing guidelines.',
+                        ],
+                        title: 'Third-party marks',
+                    },
+                ],
+                title: 'Legal Notice',
             },
             privacy: {
                 sections: [
@@ -140,6 +192,7 @@ export const COPY = {
         shell: {
             footerBrand: SITE.name,
             footerLinks: {
+                legal: 'Legal',
                 privacy: 'Privacy',
                 support: 'Support',
             },
@@ -150,14 +203,18 @@ export const COPY = {
         brand: SITE.localName,
         demoAlt: '條色盤畫面顯示手機條碼設定與小工具預覽',
         demoLabel: '條色盤畫面示意',
-        detailsLabel: '功能概要',
         htmlLang: 'zh-Hant-TW',
         lastUpdated: '2026 年 7 月 3 日',
         metadata: {
             home: {
                 description:
-                    '台灣手機條碼桌面小工具，配色跟著桌布走，設定只留在裝置上。',
-                title: '條色盤 - 台灣手機條碼桌面小工具',
+                    '從桌布提取配色，搭配貓貓等裝飾，讓手機載具成為 iPhone 主畫面的完美配件。',
+                title: '條色盤 - 讓手機載具成為桌面的完美配件',
+            },
+            legal: {
+                description:
+                    '條色盤法律聲明與名稱、應用程式圖示及標誌使用規範。',
+                title: '法律聲明',
             },
             privacy: {
                 description:
@@ -173,21 +230,68 @@ export const COPY = {
         ogLocale: 'zh_TW',
         pages: {
             home: {
-                details: [
+                appStoreBadge: {
+                    alt: '在 App Store 下載條色盤',
+                    src: '/app-store-badge-zh.svg',
+                },
+                flowTitle: '三步，讓載具融入桌面。',
+                lede: '從桌布提取配色，搭配喜歡的裝飾，讓載具隨手可用，也成為手機桌面的完美配件。',
+                showcase: {
+                    label: '選擇條色盤小工具樣式',
+                    options: [
+                        {
+                            alt: '貓貓藏在藍色載具條碼中的小工具',
+                            label: '貓貓',
+                            src: '/colorinvo-widget-cat.png',
+                        },
+                        {
+                            alt: '顏料流過藍色載具條碼的小工具',
+                            label: '顏料',
+                            src: '/colorinvo-widget-wave.png',
+                        },
+                        {
+                            alt: '藍色極簡載具條碼小工具',
+                            label: '極簡',
+                            src: '/colorinvo-widget-plain.png',
+                        },
+                    ],
+                },
+                steps: [
                     {
-                        body: '輸入一次載具號碼，應用程式會檢查格式並產生適合掃描的條碼。',
-                        title: '手機條碼',
+                        body: '從喜歡的桌布抓出主色，產生協調又清楚可掃的條碼配色。',
+                        title: '提取桌布配色',
                     },
                     {
-                        body: '儲存後直接放到主畫面，需要結帳時不用再開發票應用程式。',
-                        title: '桌面小工具',
+                        body: '選擇貓貓、顏料或極簡，讓載具符合你的桌面風格。',
+                        title: '搭配喜歡的裝飾',
                     },
                     {
-                        body: '桌布取色與小工具設定都在裝置上完成，沒有帳號、廣告或後端服務。',
-                        title: '本機處理',
+                        body: '結帳時隨手出示，不必在方便與好看之間取捨。',
+                        title: '放上主畫面',
                     },
                 ],
-                lede: '把台灣手機條碼放進桌面小工具，配色跟著桌布走，設定只留在裝置上。',
+                title: '為你的載具挑選完美配色，或是貓貓',
+                trust: '配色與小工具設定都在裝置上完成。沒有帳號、廣告或後端服務。',
+            },
+            legal: {
+                contactBody: '若要在上述範圍以外使用條色盤品牌素材，請先聯絡',
+                contactTitle: '使用許可',
+                sections: [
+                    {
+                        body: [
+                            '「條色盤」、ColorInvo、條色盤應用程式圖示與相關標誌是 Hsi Chen 的識別資產。除非事先取得書面同意，不得以暗示官方合作、認可或隸屬關係的方式使用。',
+                            '新聞報導、評論或介紹可在合理範圍內使用條色盤名稱與未經修改的應用程式圖示。不得重繪、重新配色、添加效果，或將這些素材用作其他產品、服務、網站或社群帳號的識別。',
+                        ],
+                        title: '名稱、圖示與標誌',
+                    },
+                    {
+                        body: [
+                            'Apple、App Store、iPhone 與 iOS 是 Apple Inc. 在美國及其他國家或地區註冊的商標。App Store 徽章依 Apple 行銷規範使用。',
+                        ],
+                        title: '第三方商標',
+                    },
+                ],
+                title: '法律聲明',
             },
             privacy: {
                 sections: [
@@ -281,6 +385,7 @@ export const COPY = {
         shell: {
             footerBrand: SITE.localName,
             footerLinks: {
+                legal: '法律聲明',
                 privacy: '隱私權',
                 support: '支援',
             },
@@ -313,10 +418,10 @@ export function pageMetadata(locale: Locale, page: SitePage): Metadata {
             description: pageCopy.description,
             images: [
                 {
-                    alt: copy.demoAlt,
-                    height: 2778,
-                    url: '/colorinvo-demo.png',
-                    width: 1284,
+                    alt: copy.pages.home.showcase.options[0].alt,
+                    height: 654,
+                    url: '/colorinvo-widget-cat.png',
+                    width: 1140,
                 },
             ],
             locale: copy.ogLocale,

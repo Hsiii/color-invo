@@ -14,7 +14,7 @@ interface SiteShellProps {
 
 interface LegalPageProps {
     readonly children: ReactNode;
-    readonly currentPage: Extract<SitePage, 'privacy' | 'support'>;
+    readonly currentPage: Extract<SitePage, 'legal' | 'privacy' | 'support'>;
     readonly locale: Locale;
     readonly title: string;
 }
@@ -22,6 +22,7 @@ interface LegalPageProps {
 const footerLinks = [
     'support',
     'privacy',
+    'legal',
 ] as const satisfies readonly SitePage[];
 
 export function SiteShell({
