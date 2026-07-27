@@ -1,5 +1,5 @@
 import type { JSX } from 'react';
-import { ImageIcon, Smartphone, WandSparkles } from 'lucide-react';
+import { ImageIcon, ScanBarcode, WandSparkles } from 'lucide-react';
 import Image from 'next/image';
 
 import { getCopy } from './i18n';
@@ -25,7 +25,7 @@ export function HomePageContent({ locale }: HomePageContentProps): JSX.Element {
             placement: 'topRight',
         },
         {
-            icon: Smartphone,
+            icon: ScanBarcode,
             placement: 'middleLeft',
         },
     ] as const;
@@ -97,9 +97,6 @@ export function HomePageContent({ locale }: HomePageContentProps): JSX.Element {
                         />
                     </div>
                 </div>
-            </section>
-            <section className='homeSection homeTrust'>
-                <p>{page.trust}</p>
             </section>
         </SiteShell>
     );

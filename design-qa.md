@@ -127,9 +127,13 @@ steps collapse into the intended reading order below the editor image.
 6. The central editor image was updated from the July 3 website capture to the
    latest product capture used by the current release workflow.
 7. The desktop callouts were realigned to the new screenshot: decoration beside
-   the style picker, Home Screen use beside the widget preview, and wallpaper
-   colors beside the import and palette controls. Mobile keeps the original
-   three-step reading order.
+   the style picker, scan-safe generation beside the widget preview, and
+   wallpaper colors beside the import and palette controls. Mobile keeps the
+   original three-step reading order.
+8. The header now follows the OnTrack reference with branding on the left and a
+   plain-text App Store CTA on the right. Widget styles move through one
+   horizontal, interruptible track, and the redundant device-storage note was
+   removed.
 
 ## Open Questions
 
