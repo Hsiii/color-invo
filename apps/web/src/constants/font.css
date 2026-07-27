@@ -28,22 +28,22 @@
     --space-48: 48px;
     --space-64: 64px;
     --space-80: 80px;
+    --space-96: 96px;
+    --space-120: 120px;
 
     --size-border-1: 1px;
     --size-outline: 2px;
     --size-content-max: 1120px;
+    --size-flow-preview: 280px;
     --size-legal-max: 760px;
-    --size-demo-width: 256px;
+    --size-widget-max: 520px;
     --measure-copy: 64ch;
 
     --radius-8: 8px;
     --radius-12: 12px;
-}
-
-@media (max-width: 800px) {
-    :root {
-        --size-demo-width: 168px;
-    }
+    --radius-16: 16px;
+    --radius-24: 24px;
+    --radius-pill: 999px;
 }
 
 @media (max-width: 720px) {
