@@ -148,14 +148,15 @@ img {
 
 .homeHero {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-    align-items: center;
-    gap: var(--space-64);
+    justify-items: center;
+    gap: var(--space-48);
     padding-block: var(--space-80) var(--space-96);
+    text-align: center;
 }
 
 .homeHero__copy {
     display: grid;
+    justify-items: center;
     gap: var(--space-20);
     max-width: var(--measure-copy);
 }
@@ -192,7 +193,6 @@ img {
     display: grid;
     gap: var(--space-24);
     width: min(100%, var(--size-widget-max));
-    justify-self: end;
     padding: var(--space-32);
     border: var(--size-border-1) solid var(--clr-border);
     border-radius: var(--radius-24);
@@ -266,7 +266,7 @@ img {
 }
 
 .homeFlow__intro h2 {
-    font: var(--font-display);
+    font: var(--font-heading);
     text-wrap: balance;
 }
 
@@ -289,19 +289,15 @@ img {
 }
 
 .homeFlow__step {
-    --flow-anchor-y: calc(var(--space-24) + 22px);
+    --flow-anchor-y: var(--space-40);
 
     position: absolute;
     z-index: 1;
-    display: grid;
-    grid-template-columns: 44px minmax(0, 1fr);
-    gap: var(--space-16);
     width: min(32%, 320px);
     padding: var(--space-24);
     border: var(--size-border-1) solid var(--clr-border);
     border-radius: var(--radius-16);
     background: var(--clr-surface);
-    box-shadow: var(--shadow-surface);
 }
 
 .homeFlow__step[data-placement='topRight'] {
@@ -356,16 +352,6 @@ img {
 
 .homeFlow__step[data-placement$='Right']::after {
     left: calc(-1 * var(--space-48));
-}
-
-.homeFlow__icon {
-    display: inline-grid;
-    place-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: var(--radius-8);
-    color: var(--clr-accent-strong);
-    background: var(--clr-accent-soft);
 }
 
 .homeFlow__content {
@@ -447,22 +433,8 @@ img {
 }
 
 @media (max-width: 960px) {
-    .homeHero {
-        grid-template-columns: 1fr;
-    }
-
     .homeHero__copy {
         max-width: 760px;
-        justify-self: center;
-        text-align: center;
-    }
-
-    .homeHero__copy .appStoreCta {
-        justify-self: center;
-    }
-
-    .widgetShowcase {
-        justify-self: center;
     }
 
     .homeFlow__analysis {

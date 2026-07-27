@@ -64,16 +64,16 @@ export const COPY = {
                 },
                 steps: [
                     {
-                        body: 'Pull colors from a wallpaper you love to create a coordinated barcode that stays easy to scan.',
+                        body: 'Pull colors from your wallpaper for a barcode that fits your Home Screen.',
                         title: 'Match your wallpaper',
                     },
                     {
-                        body: 'Pick Cat, Paint, or Minimal to suit the way you style your Home Screen.',
+                        body: 'Add Cat, Paint, or Minimal to make it yours.',
                         title: 'Choose a decoration',
                     },
                     {
-                        body: 'Every generated palette is checked against commercial scanner reflectance and contrast guidance.',
-                        title: 'We make sure it scans',
+                        body: 'Every palette is contrast-checked to keep the barcode easy to scan.',
+                        title: 'Keep it easy to scan',
                     },
                 ],
                 title: 'Pick the perfect colors for your carrier—or add a cat.',
@@ -195,7 +195,7 @@ export const COPY = {
         },
         shell: {
             appStoreCta: 'App Store',
-            footerBrand: SITE.name,
+            footerBrand: `© 2026 ${SITE.name}`,
             footerLinks: {
                 legal: 'Legal',
                 privacy: 'Privacy',
@@ -263,16 +263,16 @@ export const COPY = {
                 },
                 steps: [
                     {
-                        body: '從喜歡的桌布抓出主色，產生協調又清楚可掃的條碼配色。',
+                        body: '從桌布取色，快速產生與主畫面協調的條碼配色。',
                         title: '提取桌布配色',
                     },
                     {
-                        body: '選擇貓貓、顏料或極簡，讓載具符合你的桌面風格。',
-                        title: '搭配喜歡的裝飾',
+                        body: '加上貓貓、顏料或極簡裝飾，搭出你的風格。',
+                        title: '加上喜歡的裝飾',
                     },
                     {
-                        body: '每組產生的配色都會檢查反射率與對比，符合商用掃描器的辨識原則。',
-                        title: '我們確保條碼清楚可掃',
+                        body: '每組配色都會檢查對比，確保條碼清楚可掃。',
+                        title: '確保條碼清楚可掃',
                     },
                 ],
                 title: '為你的載具挑選完美配色（或是貓貓）',
@@ -389,7 +389,7 @@ export const COPY = {
         },
         shell: {
             appStoreCta: 'App Store',
-            footerBrand: SITE.localName,
+            footerBrand: `© 2026 ${SITE.name}`,
             footerLinks: {
                 legal: '法律聲明',
                 privacy: '隱私權',

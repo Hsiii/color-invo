@@ -24,6 +24,21 @@ export function WidgetShowcase({
 
     return (
         <aside aria-label={label} className='widgetShowcase'>
+            <div aria-label={label} className='widgetShowcase__picker'>
+                {options.map((option, index) => (
+                    <button
+                        aria-pressed={selectedIndex === index}
+                        className='widgetShowcase__option'
+                        key={option.src}
+                        onClick={() => {
+                            setSelectedIndex(index);
+                        }}
+                        type='button'
+                    >
+                        {option.label}
+                    </button>
+                ))}
+            </div>
             <div
                 aria-label={selectedOption.alt}
                 aria-live='polite'
@@ -53,21 +68,6 @@ export function WidgetShowcase({
                         </div>
                     ))}
                 </div>
-            </div>
-            <div aria-label={label} className='widgetShowcase__picker'>
-                {options.map((option, index) => (
-                    <button
-                        aria-pressed={selectedIndex === index}
-                        className='widgetShowcase__option'
-                        key={option.src}
-                        onClick={() => {
-                            setSelectedIndex(index);
-                        }}
-                        type='button'
-                    >
-                        {option.label}
-                    </button>
-                ))}
             </div>
         </aside>
     );
