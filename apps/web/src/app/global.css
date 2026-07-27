@@ -39,7 +39,7 @@ img {
 }
 
 :focus-visible {
-    outline: var(--size-outline) solid var(--clr-accent);
+    outline: var(--size-outline) solid var(--clr-accent-strong);
     outline-offset: var(--space-4);
 }
 
@@ -92,10 +92,10 @@ img {
     align-items: center;
     padding-inline: var(--space-20);
     border-radius: var(--radius-8);
-    color: var(--clr-surface);
+    color: var(--clr-text);
     font: var(--font-body-md);
     text-decoration: none;
-    background: var(--clr-text);
+    background: var(--clr-accent);
     box-shadow: var(--shadow-surface);
     transition-property: scale;
     transition-duration: var(--duration-fast);

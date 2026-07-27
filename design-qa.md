@@ -134,6 +134,10 @@ steps collapse into the intended reading order below the editor image.
    plain-text App Store CTA on the right. Widget styles move through one
    horizontal, interruptible track, and the redundant device-storage note was
    removed.
+9. The landing-page system now uses the app icon's `#FF9770` orange as its
+   primary color, supported by warm neutral surfaces and a darker accessible
+   orange for text and focus states. The top-right CTA is an orange “App Store”
+   button.
 
 ## Open Questions
 
