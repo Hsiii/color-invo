@@ -146,6 +146,11 @@ steps collapse into the intended reading order below the editor image.
     the landing page. Its widget uses a `#FF9770`-led peach preview, pale inner
     surface, and deep burnt-orange barcode and cat treatment; blue UI accents
     were likewise replaced with coordinated orange states.
+12. The 375 × 667 annotation pass hides the redundant header CTA below 480 px,
+    centers the official badge when the hero becomes single-column at 960 px,
+    and updates the Traditional Chinese title to
+    「為你的載具挑選完美配色（或是貓貓）」. The localized phrase 「完美配色」
+    is kept together at every width.
 
 ## Open Questions
 
