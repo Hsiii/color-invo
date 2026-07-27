@@ -164,6 +164,11 @@ steps collapse into the intended reading order below the editor image.
     heading scale, its callout cards are icon-free and shadow-free, and their
     copy is shorter in both locales. The footer now mirrors OnTrack's copyright
     treatment with `© 2026 ColorInvo`.
+16. The website typography was reduced from four semantic font aliases, six
+    base constructions, and ten rendered tuples to three aliases, three
+    constructions, and five tuples. All web text now uses the system stack;
+    body size, leading, link weight, and responsive display behavior are
+    consolidated without changing the iOS app.
 
 ## Open Questions
 
