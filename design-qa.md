@@ -142,6 +142,10 @@ steps collapse into the intended reading order below the editor image.
     weight and bold supporting headings. Landing-page headings now use the
     equivalent San Francisco system stack with PingFang TC for Traditional
     Chinese, replacing the unrelated Iowan serif display face.
+11. The central product screenshot was recolored to the same orange system as
+    the landing page. Its widget uses a `#FF9770`-led peach preview, pale inner
+    surface, and deep burnt-orange barcode and cat treatment; blue UI accents
+    were likewise replaced with coordinated orange states.
 
 ## Open Questions
 
