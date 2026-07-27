@@ -1,6 +1,8 @@
 :root {
     --ff-body: 'IBM Plex Sans', 'Avenir Next', 'Segoe UI', sans-serif;
-    --ff-display: 'Iowan Old Style', 'Palatino Linotype', serif;
+    --ff-heading:
+        -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text',
+        'PingFang TC', 'Helvetica Neue', 'Segoe UI', sans-serif;
 
     --fs-small: 0.875rem;
     --fs-body: 1rem;
@@ -11,11 +13,12 @@
     --fw-medium: 500;
     --fw-semibold: 600;
     --fw-bold: 700;
+    --fw-black: 900;
 
     --font-body-md: var(--fw-medium) var(--fs-body) / 1.6 var(--ff-body);
     --font-body-lg: var(--fw-medium) var(--fs-body-lg) / 1.6 var(--ff-body);
-    --font-heading: var(--fw-bold) var(--fs-heading) / 1.2 var(--ff-body);
-    --font-display: var(--fw-bold) var(--fs-title) / 1 var(--ff-display);
+    --font-heading: var(--fw-bold) var(--fs-heading) / 1.2 var(--ff-heading);
+    --font-display: var(--fw-black) var(--fs-title) / 1.08 var(--ff-heading);
 
     --space-4: 4px;
     --space-8: 8px;
