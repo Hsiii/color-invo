@@ -31,6 +31,11 @@
     --space-96: 96px;
     --space-120: 120px;
 
+    --duration-instant: 0ms;
+    --duration-fast: 160ms;
+    --duration-medium: 320ms;
+    --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+
     --size-border-1: 1px;
     --size-outline: 2px;
     --size-content-max: 1120px;

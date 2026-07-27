@@ -72,12 +72,11 @@ export const COPY = {
                         title: 'Choose a decoration',
                     },
                     {
-                        body: 'Show your carrier at checkout without choosing between convenience and a setup you like.',
-                        title: 'Add it to Home Screen',
+                        body: 'Every generated palette is checked against commercial scanner reflectance and contrast guidance.',
+                        title: 'We make sure it scans',
                     },
                 ],
                 title: 'Pick the perfect colors for your carrier—or add a cat.',
-                trust: 'Colors and widget settings are created on your device. No account, ads, or backend service.',
             },
             legal: {
                 contactBody:
@@ -190,6 +189,7 @@ export const COPY = {
             },
         },
         shell: {
+            appStoreCta: 'Download',
             footerBrand: SITE.name,
             footerLinks: {
                 legal: 'Legal',
@@ -266,12 +266,11 @@ export const COPY = {
                         title: '搭配喜歡的裝飾',
                     },
                     {
-                        body: '結帳時隨手出示，不必在方便與好看之間取捨。',
-                        title: '放上主畫面',
+                        body: '每組產生的配色都會檢查反射率與對比，符合商用掃描器的辨識原則。',
+                        title: '我們確保條碼清楚可掃',
                     },
                 ],
                 title: '為你的載具挑選完美配色，或是貓貓',
-                trust: '配色與小工具設定都在裝置上完成。沒有帳號、廣告或後端服務。',
             },
             legal: {
                 contactBody: '若要在上述範圍以外使用條色盤品牌素材，請先聯絡',
@@ -383,6 +382,7 @@ export const COPY = {
             },
         },
         shell: {
+            appStoreCta: '下載 App',
             footerBrand: SITE.localName,
             footerLinks: {
                 legal: '法律聲明',

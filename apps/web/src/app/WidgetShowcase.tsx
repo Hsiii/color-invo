@@ -24,16 +24,35 @@ export function WidgetShowcase({
 
     return (
         <aside aria-label={label} className='widgetShowcase'>
-            <div aria-live='polite' className='widgetShowcase__media'>
-                <Image
-                    alt={selectedOption.alt}
-                    className='widgetShowcase__image'
-                    height={654}
-                    key={selectedOption.src}
-                    priority
-                    src={selectedOption.src}
-                    width={1140}
-                />
+            <div
+                aria-label={selectedOption.alt}
+                aria-live='polite'
+                className='widgetShowcase__media'
+                role='img'
+            >
+                <div
+                    className='widgetShowcase__track'
+                    style={{
+                        transform: `translate3d(-${selectedIndex * 100}%, 0, 0)`,
+                    }}
+                >
+                    {options.map((option, index) => (
+                        <div
+                            aria-hidden='true'
+                            className='widgetShowcase__slide'
+                            key={option.src}
+                        >
+                            <Image
+                                alt=''
+                                className='widgetShowcase__image'
+                                height={654}
+                                priority={index === 0}
+                                src={option.src}
+                                width={1140}
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
             <div aria-label={label} className='widgetShowcase__picker'>
                 {options.map((option, index) => (

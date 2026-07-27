@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import { getCopy } from './i18n';
 import type { Locale, SitePage } from './site';
-import { routeFor } from './site';
+import { routeFor, SITE } from './site';
 
 interface SiteShellProps {
     readonly children: ReactNode;
@@ -54,6 +54,13 @@ export function SiteShell({
                         />
                         <span>{copy.brand}</span>
                     </Link>
+                    <a
+                        aria-label={copy.pages.home.appStoreBadge.alt}
+                        className='siteNav__cta'
+                        href={SITE.appStoreUrl}
+                    >
+                        {copy.shell.appStoreCta}
+                    </a>
                 </nav>
             </header>
             <main className='siteMain'>{children}</main>
