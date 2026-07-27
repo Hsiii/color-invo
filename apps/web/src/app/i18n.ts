@@ -189,7 +189,7 @@ export const COPY = {
             },
         },
         shell: {
-            appStoreCta: 'Download',
+            appStoreCta: 'App Store',
             footerBrand: SITE.name,
             footerLinks: {
                 legal: 'Legal',
@@ -382,7 +382,7 @@ export const COPY = {
             },
         },
         shell: {
-            appStoreCta: '下載 App',
+            appStoreCta: 'App Store',
             footerBrand: SITE.localName,
             footerLinks: {
                 legal: '法律聲明',
