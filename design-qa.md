@@ -138,6 +138,10 @@ steps collapse into the intended reading order below the editor image.
    primary color, supported by warm neutral surfaces and a darker accessible
    orange for text and focus states. The top-right CTA is an orange “App Store”
    button.
+10. The App Store artwork composer uses `NSFont.systemFont` with black title
+    weight and bold supporting headings. Landing-page headings now use the
+    equivalent San Francisco system stack with PingFang TC for Traditional
+    Chinese, replacing the unrelated Iowan serif display face.
 
 ## Open Questions
 
