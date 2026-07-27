@@ -155,6 +155,10 @@ steps collapse into the intended reading order below the editor image.
     app's actual `ColorInvoTheme.primary` value, `#007EA8`. The original cool
     surfaces, blue interaction states, blue widget showcase captures, and
     original blue product screenshot are again used consistently.
+14. Headline wrapping now follows explicit semantic boundaries instead of
+    character-level opportunities. Traditional Chinese copy also uses the
+    browser's phrase-aware line-breaking mode, preventing breaks inside natural
+    phrases throughout the site.
 
 ## Open Questions
 

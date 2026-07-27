@@ -15,7 +15,6 @@ interface HomePageContentProps {
 export function HomePageContent({ locale }: HomePageContentProps): JSX.Element {
     const copy = getCopy(locale);
     const page = copy.pages.home;
-    const [titleBefore, titleAfter] = page.title.split(page.titleNoBreak);
     const stepPresentation = [
         {
             icon: ImageIcon,
@@ -36,11 +35,14 @@ export function HomePageContent({ locale }: HomePageContentProps): JSX.Element {
             <section className='homeHero'>
                 <div className='homeHero__copy'>
                     <h1 className='homeHero__title'>
-                        {titleBefore}
-                        <span className='homeHero__titlePhrase'>
-                            {page.titleNoBreak}
-                        </span>
-                        {titleAfter}
+                        {page.titlePhrases.map((phrase, index) => (
+                            <span key={phrase}>
+                                {index > 0 && <wbr />}
+                                <span className='homeHero__titlePhrase'>
+                                    {phrase}
+                                </span>
+                            </span>
+                        ))}
                     </h1>
                     <p className='homeHero__lede'>{page.lede}</p>
                     <a
