@@ -151,6 +151,10 @@ steps collapse into the intended reading order below the editor image.
     and updates the Traditional Chinese title to
     「為你的載具挑選完美配色（或是貓貓）」. The localized phrase 「完美配色」
     is kept together at every width.
+13. The orange landing-page experiment was rolled back in favor of the iOS
+    app's actual `ColorInvoTheme.primary` value, `#007EA8`. The original cool
+    surfaces, blue interaction states, blue widget showcase captures, and
+    original blue product screenshot are again used consistently.
 
 ## Open Questions
 
