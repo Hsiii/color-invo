@@ -49,6 +49,11 @@ img {
     flex-direction: column;
 }
 
+.siteShell:lang(zh-Hant-TW) {
+    overflow-wrap: normal;
+    word-break: auto-phrase;
+}
+
 .siteHeader {
     position: sticky;
     top: 0;
@@ -168,6 +173,7 @@ img {
 }
 
 .homeHero__titlePhrase {
+    display: inline-block;
     white-space: nowrap;
 }
 
