@@ -77,6 +77,7 @@ export const COPY = {
                     },
                 ],
                 title: 'Pick the perfect colors for your carrier—or add a cat.',
+                titleNoBreak: 'perfect colors',
             },
             legal: {
                 contactBody:
@@ -270,7 +271,8 @@ export const COPY = {
                         title: '我們確保條碼清楚可掃',
                     },
                 ],
-                title: '為你的載具挑選完美配色，或是貓貓',
+                title: '為你的載具挑選完美配色（或是貓貓）',
+                titleNoBreak: '完美配色',
             },
             legal: {
                 contactBody: '若要在上述範圍以外使用條色盤品牌素材，請先聯絡',

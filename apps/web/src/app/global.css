@@ -167,6 +167,10 @@ img {
     text-wrap: pretty;
 }
 
+.homeHero__titlePhrase {
+    white-space: nowrap;
+}
+
 .appStoreCta {
     display: inline-flex;
     width: fit-content;
@@ -447,6 +451,10 @@ img {
         text-align: center;
     }
 
+    .homeHero__copy .appStoreCta {
+        justify-self: center;
+    }
+
     .widgetShowcase {
         justify-self: center;
     }
@@ -494,6 +502,10 @@ img {
 }
 
 @media (max-width: 480px) {
+    .siteNav__cta {
+        display: none;
+    }
+
     .siteNav,
     .siteFooter__inner,
     .homeHero,
